@@ -11,3 +11,8 @@ def read_root():
 @app.get("/health")
 def health_check():
     return {"status": "healthy"}
+
+
+@app.get("/employee")
+def getEmoployee():
+    return {"message": "Hello Dost!"}
